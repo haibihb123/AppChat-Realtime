@@ -1,0 +1,59 @@
+.setting_mg{
+    margin-top: 30px;
+   
+}
+.setting_mg_left{
+    margin-left: 500px;
+    margin-bottom: 15px;
+}
+.setting_avata_mg{
+    margin-left: 30px;
+}
+.setting_avata{
+    border-radius: 9999px;
+    margin-left: 35px;
+}
+
+.setting_from{
+    font-size: 17px;
+    font-weight: 600;
+}
+.setting_from_1{
+    margin-bottom: 20px;
+}
+.setting_name{
+    margin-right: 60px;
+}
+.setting_age{
+    margin-right: 99px
+}
+.setting_email{
+    margin-right: 90px
+}
+.setting_phone{
+    margin-right: 29px
+}
+.setting_address{
+    margin-right: 78px
+}
+.setting_avata1{
+    margin-right: 90px
+}
+.setting_sex{
+    margin-left: 135px;
+    margin-right: 10px;
+    
+}
+.setting_btnEdit{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    width: 145px;
+    height: 45px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.setting_input{
+    border: 1px solid rgb(230, 230, 230);
+    width: 700px;
+}

@@ -1,28 +1,65 @@
-import { Avatar } from "@material-ui/core";
-import styled from "styled-components";
-import ChatIcon from "@material-ui/icons/Chat";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
+import Style from './StyleSidebar.module.css'
+import Image from 'next/image'
+import Link from 'next/link'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouseUser, faCommentDots, faBell, faGear, faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+function SideBar() {
+    return <>
+        <div class="wrapper col-sm-2 " >
 
-function Sidebar() {
-    return (
-        <Container>
-            <Header>
-                <UserAvatar />
+            <nav id="sidebar" className={Style.sidebar_mg}>
+                <div className={Style.image_mg}>
+                    <Image
+                        priority
+                        src="/image/a1.jpg"
+                        className={Style.image_avata}
+                        height={70}
+                        width={70}
+                        alt=""
+                    />
+                </div>
+                <div>
+                    <div className={Style.sidebar_icon}>
+                        <Link href="/">
+                            <a >
+                                <FontAwesomeIcon className={Style.sidebar_icon_a} icon={faHouseUser} style={{ fontSize: 40, }} />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={Style.sidebar_icon}>
+                        <Link href="/">
+                            <a  >
+                                <FontAwesomeIcon className={Style.sidebar_icon_a} icon={faCommentDots} style={{ fontSize: 40, }} />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={Style.sidebar_icon}>
+                        <Link href="/">
+                            <a >
+                                <FontAwesomeIcon className={Style.sidebar_icon_a} icon={faBell} style={{ fontSize: 40, }} />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={Style.sidebar_icon2}>
+                        <Link href="/Setting/setting">
+                            <a>
+                                <FontAwesomeIcon className={Style.sidebar_icon_a} icon={faGear} style={{ fontSize: 40, }} />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={Style.sidebar_icon}>
+                        <Link href="/" >
+                            <a >
+                                <FontAwesomeIcon className={Style.sidebar_icon_a} icon={faRightFromBracket} style={{ fontSize: 40, }} />
+                            </a>
+                        </Link>
+                    </div>
 
-                <IconContainer>
-                    <ChatIcon />
-                    <MoreVertIcon />
-                </IconContainer>
-            </Header>
-        </Container>
-    )
+                </div>
+            </nav>
+
+
+        </div>
+    </>
 }
-export default Sidebar;
-
-const Container = styled.div``;
-
-const Header = styled.div``;
-
-const UserAvatar = styled(Avatar)``;
-
-const IconContainer = styled.div``;
+export default SideBar

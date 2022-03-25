@@ -1,0 +1,35 @@
+.app {
+  background-color: #EFF6FC;
+  }
+.sidebar_mg{
+  margin: 30px;
+    background-color: #6E00FF;
+    border-radius: 20px;
+    height: 700px;
+    width: 100px;
+}
+.image_mg{
+  margin-left: 14px;
+    padding-top: 24px;
+    margin-bottom: 35px
+}
+.image_avata{
+  border-radius: 9999px;
+}
+.sidebar_icon{
+  margin-left: 30px;
+    margin-bottom: 40px
+}
+
+.sidebar_icon2{
+  margin-left: 30px;
+    margin-bottom: 200px
+}
+
+.sidebar_icon_a{
+  color: #fff;
+}
+
+.sidebar_icon_a:hover{
+  color: #e06e41;
+}
