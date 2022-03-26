@@ -49,7 +49,7 @@ function SideBar() {
                         </Link>
                     </div>
                     <div className={Style.sidebar_icon}>
-                        <Link href="/" >
+                        <Link href="/login/Login" >
                             <a >
                                 <FontAwesomeIcon className={Style.sidebar_icon_a} icon={faRightFromBracket} style={{ fontSize: 40, }} />
                             </a>

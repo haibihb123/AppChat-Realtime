@@ -1,11 +1,12 @@
 .app {
   background-color: #EFF6FC;
+  height: 100%;
   }
 .sidebar_mg{
   margin: 30px;
     background-color: #6E00FF;
     border-radius: 20px;
-    height: 700px;
+    height: 880px;
     width: 100px;
 }
 .image_mg{
@@ -18,12 +19,12 @@
 }
 .sidebar_icon{
   margin-left: 30px;
-    margin-bottom: 40px
+    margin-bottom: 50px
 }
 
 .sidebar_icon2{
   margin-left: 30px;
-    margin-bottom: 200px
+    margin-bottom: 350px
 }
 
 .sidebar_icon_a{

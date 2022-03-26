@@ -41,6 +41,14 @@ export default function ChatScreen() {
                             <UserAvatar />
                             <Nickname>Name </Nickname>
                         </GButton>
+                        <GButton>
+                            <UserAvatar />
+                            <Nickname>Name </Nickname>
+                        </GButton>
+                        <GButton>
+                            <UserAvatar />
+                            <Nickname>Name </Nickname>
+                        </GButton>
                     </Gcontainer>
                 </PeopleContainer>
                 <ChatContainer>
@@ -161,7 +169,7 @@ const IconContainer = styled.div`
 const MesContainer = styled.div`
     padding: 30px;
     background-color: #e5ded8;
-    min-height: 57vh;
+    min-height: 75vh;
 `;
 const User = styled.div`
     display: flex;
@@ -244,6 +252,6 @@ const GroupContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    height: 80px;
+    height: 60px;
     border-bottom: 1px solid whitesmoke;
 `;
