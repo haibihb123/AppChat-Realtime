@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouseUser, faCommentDots, faBell, faGear, faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 function SideBar() {
     return <>
+
         <div class="wrapper col-sm-2 " >
 
             <nav id="sidebar" className={Style.sidebar_mg}>
@@ -27,7 +28,7 @@ function SideBar() {
                         </Link>
                     </div>
                     <div className={Style.sidebar_icon}>
-                        <Link href="/">
+                        <Link href="/chat/ChatScreen">
                             <a  >
                                 <FontAwesomeIcon className={Style.sidebar_icon_a} icon={faCommentDots} style={{ fontSize: 40, }} />
                             </a>
@@ -60,6 +61,9 @@ function SideBar() {
 
 
         </div>
+
     </>
+
 }
 export default SideBar
+

@@ -50,7 +50,7 @@ function Setting() {
                             </div>
 
                             <div className={StyleLayout.setting_from_1}>
-                                <label className={StyleLayout.setting_avata1} for="avata"> A    vata:</label>
+                                <label className={StyleLayout.setting_avata1} for="avata"> Avatar:</label>
                                 <input type="file" id="fname" name="avata" />
                             </div>
 
