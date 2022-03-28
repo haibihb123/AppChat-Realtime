@@ -21,7 +21,7 @@ function SideBar() {
                 </div>
                 <div>
                     <div className={Style.sidebar_icon}>
-                        <Link href="/">
+                        <Link href="/home/Home">
                             <a >
                                 <FontAwesomeIcon className={Style.sidebar_icon_a} icon={faHouseUser} style={{ fontSize: 40, }} />
                             </a>
